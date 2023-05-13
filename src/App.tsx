@@ -22,6 +22,7 @@ function App() {
                 <Route path={'/recoveryPassword'} element={<RecoveryPassword/>}/>
                 <Route path={'/newPassword'} element={<NewPassword/>}/>
                 <Route path={'/profile'} element={<Profile/>}/>
+
                 <Route path={'/superComponents'} element={<SuperComponents/>}/>
             </Routes>
         </div>
